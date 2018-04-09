@@ -1,0 +1,33 @@
+<%= link_to "back", :back %>
+<h1> Transfer Balance</h1>
+<br />Amount to transfer:<br>
+<span>##{@amount}
+</span>
+Your Rando Balance is $
+##{@amount}
+
+<p>Bank transfers initated before 7 pm. et on business days will typically be available in your bank account the next business day, but it can take up to 3 business days. Business days are Monday to Friday, excluding bank holidats </p>
+
+If you have no bank or need to add a bank,
+<span id="selectedBank"<%= link_to "Add card or bank"  %>
+or you can view/select
+<%= link_to "from all connected banks" %>
+
+
+
+<button onclick="showStripeConfirmationTransfer()"> NEXT </button>
+
+<script>
+
+function showStripeConfirmationTransfer(){
+  // if it's over the balance they have, issue an error
+  // if it's under the balance they have, proceed,
+  // proceeding is:
+  // take the selected current bank from within the id="selectedBank"
+  // select the amount that wants to be sent
+  // take these as arguments and send those argumets into the stripe function/partial
+  
+
+}
+
+ </script>
