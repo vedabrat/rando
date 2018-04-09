@@ -1,0 +1,2 @@
+module RandHelper
+end
