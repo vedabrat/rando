@@ -1,220 +1,219 @@
-<h1>Rando#_settings</h1>
-<p>Find me in app/views/rando/_settings.html.erb</p>
 <%= link_to "back", :back %>
-preferences:
+<h1>Settings</h1>
+<p>Preferences:
 <ul>
 
-          edit profile [
+          Edit Profile
           <ul>
 <br />
-                        image
+                        Image
                         <br />
-                        first_name
+                        First Name
                         <br />
-                        last_name
+                        Last Name
                         <br />
-                        username
+                        Username
                         <br />
-                        email
+                        Email
                         <br />
-                        [textcomment: You can be paid using your username, email, or phone number]
-          ]
+                        You can be paid using your username, email, or phone number
+
         </ul>
-          banks and cards[
+          Banks and Cards
           <ul>
-                          bank_accounts
+                          Bank Accounts
                           <br />
                             #{list bank accounts}
                             <br />
-                            link bank accounts
+                            Link Bank Accounts
                             <br />
-                          cards
+                          Cards
                           <br />
                           #{list cards}
                           <br />
-                            add debit or credit card
+                            Add Debit or Credit Card
                             <br />
-                            [textcomment: A standard 3% feee applies when sending money using a credit card the fee is waived for Authorized Merchant Payments, Rando balance, bank accounts, and debit cards so they are free to use]
+                            A standard 3% feee applies when sending money using a credit card the fee is waived for Authorized Merchant Payments, Rando balance, bank accounts, and debit cards so they are free to use.
 
                           </ul>
-          ]
-          privacy
+
+          Privacy
           <ul>
-                  [<b> default privacy setting</b>
+                  <b> Default Privacy Setting</b>
                   <ul>
-                      [textcomment: Select your default privacy setting for all future payments. You can also change it for each payment individually.]
-                      public: Visible to everyone
+                      Select your default privacy setting for all future payments. You can also change it for each payment individually.
+                      Public: Visible to everyone
                       <br />
-                      friends: Visible to senders, recipients, and their friends
+                      Friends: Visible to senders, recipients, and their friends
                       <br />
-                      private: visible to senders and recipients only
+                      Private: visible to senders and recipients only
                     </ul>
                     <b> Past Transactions </b>
                     <ul>
-                      [textcomment: Change the privacy setting for all previous payments and purchases. you can also go to each transaction to make individual changes]
-                      limit to friends
+                      Change the privacy setting for all previous payments and purchases. you can also go to each transaction to make individual changes
+                      Limit to friends
                       <br />
-                      make all private
+                      Make all private
                     </ul>
                     <b> Friending </b>
                     <ul>
                       As your Facebook Friends and/or phone contacts join Rando you'll automatically become Rando friends.
-                      facebook_friends: on/off
+                      Facebook_friends: on/off
                       <br />
-                      phone_contacts: on/off
+                      Phone_contacts: on/off
                     </ul>
                   </ul>
 
-          ]
-          blocked users
+
+          Blocked Users
           <ul>
 
                         #{blocked users}
                       </ul>
-          notifications
+          Notifications
           <ul>
-                        push notifications
+                        Push Notifications
                         <ul>
-                                          money
+                                          Money
                                           <ul>
-                                                bank transfer on/off
+                                                Bank Transfer on/off
                                                 <br />
-                                                payment received on/off
+                                                Payment Received on/off
                                                 <br />
-                                                payment sent on/off
+                                                Payment Sent on/off
                                                 <br />
-                                                charge request received on/off
+                                                Charge request received on/off
                                                 <br />
-                                                friend Payments on/off
+                                                Friend Payments on/off
                                                 <br />
-                                                purchases on/off
+                                                Purchases on/off
                                               </ul>
-                                          social
+                                          Social
                                           <ul>
-                                                likes on/off
+                                                Likes on/off
                                                 <br />
-                                                comments on/off
+                                                Comments on/off
                                                 <br />
-                                                friend requests on/off
+                                                Friend requests on/off
                                                 <br />
-                                                mentions on/off
+                                                Mentions on/off
                                                 <br />
-                                                friend joined on/off
+                                                Friends joined on/off
                                               </ul>
                                             </ul>
-                        text notifications
+                        Text Notifications
                         <ul>
-                                            money
+                                            Money
                                             <ul>
-                                                  payment received on/off
+                                                  Payment received on/off
                                                   <br />
-                                                  payment sent on/off
+                                                  Payment sent on/off
                                                   <br />
-                                                  charge request received on/off
+                                                  Charge request received on/off
                                                 </ul>
-                                            social
+                                            Social
                                             <ul>
-                                                  comments on/off
+                                                  Comments on/off
                                                   <br />
-                                                  friend requests on/off
+                                                  Friend requests on/off
                                                   <br />
-                                                  friend joined on/off
+                                                  Friend joined on/off
                                                 </ul>
                                               </ul>
 
-                        email notifications
+                        Email Notifications
                         <ul>
-                                            security
+                                            Security
                                             <ul>
                                                     Login Attempted on/off
                                                     <br />
                                                     Add Remembered Device on/off
                                                   </ul>
-                                            money
+                                            Money
                                             <ul>
-                                                  payment received on/off
+                                                  Payment Received on/off
                                                   <br />
-                                                  charge request received on/off
+                                                  Charge request received on/off
                                                   <br />
-                                                  charge request rejected on/off
+                                                  Charge request rejected on/off
                                                   <br />
-                                                  charge request canceled on/off
+                                                  Charge request canceled on/off
                                                 </ul>
 
-                                            social
+                                            Social
                                             <ul>
-                                                  likes on/off
+                                                  Likes on/off
                                                   <br />
-                                                  comments on/off
+                                                  Comments on/off
                                                   <br />
-                                                  friend requests on/off
+                                                  Friend requests on/off
                                                   <br />
-                                                  invite reminders on/off
+                                                  Invite reminders on/off
                                                   <br />
-                                                  friend joined on/off
+                                                  Friend joined on/off
                                                 </ul>
                                               </ul>
                                             </ul>
 
-          social networks
+          Social Networks
           <ul>
           </ul>
 
-          change phone number
+          Change Phone Number
           <ul>
-                              [textcomment: enter your phone number. We'll send a code to make sure it's you]
+                              Enter your phone number. We'll send a code to make sure it's you
                               <br />
-                              put in number
+                              Put in number
                               <br />
-                              [textcomment: By submitting, you confirm that you ar authorized to use the number entered and agree to receive SMS texts to verify you own the number. Carrier fees may apply]
+                              By submitting, you confirm that you ar authorized to use the number entered and agree to receive SMS texts to verify you own the number. Carrier fees may apply
                             </ul>
 
-          emoji
+          Emoji
           <ul>
-                suggest while typing on/off
+                Suggest while typing on/off
                 <br />
-                [textcomment: show relevant emoji for easy access whe typing parment notes and comments]
+                Show relevant emoji for easy access whe typing parment notes and comments
               </ul>
             </ul>
-buying: connect browsers
+Buying: connect browsers
 <ul>
-                        connect Safari on/off
+                        Connect Safari on/off
                         <br />
-        backup payment
+        Backup Payment
         <ul>
                         #{show all_backup_payments}
                         <br />
                         Add a bank or card (no purchase fees)
                       </ul>
-        connected merchants
+        Connected Merchants
         <ul>
-                            [textcomment: connect your rando account to pay for your fabvofrite things, split purchase and share with friends.]
+                            Connect your rando account to pay for your fabvofrite things, split purchase and share with friends.
                           </ul>
                         </ul>
-security:
+Security:
 <ul>
-          pin
+          PIN
           <br />
-          change password
+          Change Password
           <ul>
-                          current?
+                          Current?
                           <br />
-                          new
+                          New
                           <br />
-                          confirm
+                          Confirm
                           <br />
-                          [textcomment: never share your password with anyone]
+                          Never share your password with anyone
                         </ul>
-          remembered devices
+          Remembered Devices
           <ul>
                             #{list_all_devices}
                             <br />
                             #{List this device}
                           </ul>
                         </ul>
-information:
+Information:
 <ul>
-            legal
+            Legal
             <ul>
                   Useragreement - link
                   <br />
@@ -222,35 +221,35 @@ information:
                   <br />
                   Licenses - link
                 </ul>
-            helpful information
+            Helpful Information
             <ul>
                                 [go crazy! updates, weblinks, you name it!]
                               </ul>
                             </ul>
 
-send feedback
+Send Feedback
 <ul>
-              details
+              Details
               <ul>
-                topic: [make a list of possible errors]
+                Topic: [make a list of possible errors]
                 <br />
-                Send_feedback
+                Send Feedback
               </ul>
               Environment
               <ul>
-                current_locale
+                Current Locale
                 <br />
-                device
+                Device
                 <br />
-                app name
+                App Name
                 <br />
-                os version
+                OS Version
                 <br />
-                app version
+                App Version
               </ul>
             </ul>
 
-rate rando
+Rate Rando
   <ul>
            -link to the app store in which this is marketed in.
          </ul>
@@ -258,5 +257,6 @@ rate rando
 </ul>
 
 Sign Out
+</p>
 <br />
-app version
+App Version
